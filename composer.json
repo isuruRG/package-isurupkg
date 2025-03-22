@@ -14,7 +14,7 @@
     "extra": {
     "laravel": {
         "providers": [
-            "Isurupkg\\Inspire\\Providers\\InspireServiceProvider"
+            "Isurupkg\\Inspire\\Providers\\InspirationProvider"
         ]
         }
     },
