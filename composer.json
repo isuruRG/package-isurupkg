@@ -1,0 +1,25 @@
+{
+    "name": "isurupkg/inspire",
+    "autoload": {
+        "psr-4": {
+            "Isurupkg\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "isuruRG",
+            "email": "isuru336e@gmail.com"
+        }
+    ],
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Isurupkg\\Inspire\\Providers\\InspireServiceProvider"
+        ]
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "minimum-stability": "dev"
+}
